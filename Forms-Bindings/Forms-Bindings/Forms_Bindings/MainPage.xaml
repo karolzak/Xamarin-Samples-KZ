@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Forms_Bindings"
+             x:Class="Forms_Bindings.MainPage">
+  <StackLayout Orientation="Vertical">
+    <Label Font="30" Text="{Binding Text}"/>
+    <ListView ItemsSource="{Binding List}"/>
+  </StackLayout>
+</ContentPage>
