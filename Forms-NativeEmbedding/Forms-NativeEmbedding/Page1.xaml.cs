@@ -23,9 +23,11 @@ namespace Forms_NativeEmbedding
 		{
 			
 			InitializeComponent ();
-			var pageLayout = this.FindByName<StackLayout>("pageLayout");
-			var absolute = this.FindByName<AbsoluteLayout>("absolute");
-			var list = this.FindByName<Xamarin.Forms.ListView>("list");
+
+
+			//var pageLayout = this.FindByName<StackLayout>("pageLayout");
+			//var absolute = this.FindByName<AbsoluteLayout>("absolute");
+			//var list = this.FindByName<Xamarin.Forms.ListView>("list");
 			absolute.VerticalOptions = LayoutOptions.FillAndExpand;
 				absolute.HorizontalOptions = LayoutOptions.FillAndExpand;
 			AbsoluteLayout.SetLayoutFlags(pageLayout, AbsoluteLayoutFlags.All);
