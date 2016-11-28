@@ -27,7 +27,7 @@ namespace Native_Plugins.WinPhone
         public MainPage()
         {
             this.InitializeComponent();
-
+            
                 Plugin.TextToSpeech.CrossTextToSpeech.Current.Init();
             this.NavigationCacheMode = NavigationCacheMode.Required;
         }

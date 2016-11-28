@@ -24,7 +24,7 @@ namespace Forms_Bindings
             List.Add("Borys");
             List.Add("Rafał");
             List.Add("Tomek");
-            List.Add("Darek");
+            List.Add("Darek");            
         }
 
     }
