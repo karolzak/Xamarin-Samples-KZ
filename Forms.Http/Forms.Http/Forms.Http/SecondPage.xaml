@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Forms.Http"
+             x:Class="Forms.Http.SecondPage">
+  <StackLayout Orientation="Vertical">
+    <!--<Entry x:Name="url1"  WidthRequest="300"/>-->
+  <Button x:Name="button1" Text="Start"/>
+    <ListView x:Name="listView1">
+      
+    </ListView>
+  <Label x:Name="label1" Text="Result" WidthRequest="300" HeightRequest="600"/>
+  </StackLayout>
+
+</ContentPage>
