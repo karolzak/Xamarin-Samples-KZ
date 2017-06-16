@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:Forms.Bindings"
              x:Class="Forms.Bindings.MainPage">
-  <StackLayout Orientation="Vertical">
+  <StackLayout  Orientation="Vertical">
     <Label Font="30" Text="{Binding Text}"/>
     <ListView ItemsSource="{Binding List}"/>
   </StackLayout>
